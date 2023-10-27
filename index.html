@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>
+            <p>Jogo da Velha</p>
+        </h1>
+        <div class="vitoria">
+            <p id="vx">
+                <X>X</X>: <text id="vitoriasX"></text>
+            </p>
+            <p id="vo">
+                <O>O</O>: <text id="vitoriasO"></text>
+            </p>
+        </div>
+        <div id="jogadaatual">
+            <p>
+                <div class=""></div>
+            </p>
+        </div>
+        <div>
+            <p class="jogarcontrabot">Bot: <input type="checkbox" name="bot" id="bot"></p>
+        </div>
+    </header>
+    <section center>
+        <div id="areadejogo">
+            <p>
+                <input type="button" value=" " class="jogo" id="cantoDCima"> 
+                <input type="button" value=" " class="jogo" id="centroCima"> 
+                <input type="button" value=" " class="jogo" id="cantoECima"> 
+            </p>
+            <p>
+                <input type="button" value=" " class="jogo" id="meioDireito">
+                <input type="button" value=" " class="jogo" id="meio">
+                <input type="button" value=" " class="jogo" id="meioEsquerdo">
+            </p>
+            <p>
+                <input type="button" value=" " class="jogo" id="cantoDBaixo">
+                <input type="button" value=" " class="jogo" id="centroBaixo">
+                <input type="button" value=" " class="jogo" id="cantoEBaixo">
+            </p>
+        </div>
+        <div id="resultado">
+
+        </div>
+    </section>
+    <footer>
+        <p>
+        &copyAndersonrss
+    </p>
+    </footer>
+</body>
+</html>
